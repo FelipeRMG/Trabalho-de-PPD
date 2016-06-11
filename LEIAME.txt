@@ -1,0 +1,17 @@
+/*
+Descrição: Algoritmo paralelo para busca de um elemento no vetor desordenado.
+Autor: Felipe da Rocha Moralles Guterres
+RGM: 023401
+Curso: Ciência da  Computação - UEMS
+*/
+
+1º Para executar esse trabalho deve abrir o terminal e acessar a pasta do trabalho
+	2º Para executar em paralelo deve dar o comando "bash ssh_configure.sh";
+	3º Após o comando "bash configure.sh" 
+	4º Por último executar o comando "bash remote_run.sh X Y", onde X é número de máquinas e Y o valor a ser buscado
+	
+	5º Para executar somente em uma máquina utilizar o "make"
+	6º Por último executar "bash local_run.sh X Y", onde X é o número de processos e Y o valor a ser buscado
+	
+	
+OBS.: No arquivo hostfile colocar o IP das máquinas
